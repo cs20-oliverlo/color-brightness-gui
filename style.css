@@ -1,10 +1,18 @@
 /* CSS Stylesheet */
 body {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif; /* Base Font */
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  margin: 50px 0px;
 }
 
 input {
   width: 60px;
+  font-size: 20px;
 }
 
 button {
@@ -14,10 +22,32 @@ button {
   padding: 5px 20px;
   border-radius: 10px;
   margin-left: 25px;
+  font-size: 22px;
 }
 
 button:hover {
   background-color: grey;
   color: black;
   cursor: pointer;
+}
+
+.Luminance {
+  font-size: 32px;
+}
+
+.inputs {
+  font-size: 22px;
+}
+
+hr {
+  width: 700px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
