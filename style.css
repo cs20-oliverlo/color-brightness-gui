@@ -1,1 +1,23 @@
 /* CSS Stylesheet */
+body {
+  text-align: center;
+}
+
+input {
+  width: 60px;
+}
+
+button {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+button:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
